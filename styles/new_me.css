@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 
 .container{
   width: 75%;
-  max-width:1200px;
+  max-width:1141px;
   margin: 0 auto;
 }
 
@@ -15,6 +16,10 @@ body{
    font-family: "Work Sans", sans-serif; 
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
 /* individual design */
 
 header{
@@ -24,20 +29,20 @@ header{
   background-position: center;
   background-size: cover;
 
+
 }
 
 .main_container{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-border: 1px solid red;
   padding: 216px 0 168px;
 }
 
 
 .content{
   flex: 0 0 45%;
-  max-width: 45%;
+  max-width: 525px;
   text-align: right;
   padding-right: 2px;
 }
@@ -62,6 +67,142 @@ border: 1px solid red;
   color:#FFFFFF;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 
+
+
+.failure_main{
+
+   padding: 138px 0;
+  display: flex;
+justify-content: center;
+align-items: center;
+  gap: 87px;
+}
+
+
+.img_area{
+/* width: 47%; */
+max-width: 569px;
+}
+
+
+
+
+
+
+
+.failures_list {
+
+  max-width: 416px;
+margin: auto 0;
+}
+
+
+.failures_list h3{
+
+font-size: 40px;
+font-weight: bold;
+color: #151414;
+margin-bottom: 24px;
+}
+
+
+.failures_list p{
+ line-height: 26px;
+ color: #444343; 
+ margin-bottom:16px ;
+
+}
+
+#my_plans{
+  text-align: center;
+}
+.plan_main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#my_plans h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+margin-bottom: 50px;
+}
+
+.plan{
+
+  max-width: 218px;
+ 
+}
+
+
+.plan img{
+  width: 93px; 
+  height: 93px;
+ margin-bottom: 24px;
+}
+
+.plan h4{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#mindset_show{
+  padding: 130px 0;
+}
+
+
+.mind_main{
+
+  border-radius: 8px;
+  padding: 59px 64px ;
+  background-image: url(../images/watch.png);
+  position: relative;
+  z-index: 1;
+}
+
+.mind_main::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image:url(../images/gradient2.png) ;
+  top: 0;
+  left: 0;
+border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+background-repeat: no-repeat;
+  z-index: 2;
+}
+
+
+.mind{
+   max-width: 460px;
+z-index: 2;
+position: relative;
+}
+.mind h2{
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+
+.mind button{
+  padding: 21px 36px;
+  background-color:#FFFFFF ;
+  color:#F15B22 ;
+  border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+ 
