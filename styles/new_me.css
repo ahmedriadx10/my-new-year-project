@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 75%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+
+body{
+   font-family: "Work Sans", sans-serif; 
+}
+
+/* individual design */
+
+header{
+
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.main_container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+border: 1px solid red;
+  padding: 216px 0 168px;
+}
+
+
+.content{
+  flex: 0 0 45%;
+  max-width: 45%;
+  text-align: right;
+  padding-right: 2px;
+}
+
+.content h2{
+  font-size: 65px;
+  font-weight: bold;
+  color:#151414 ;
+  margin-bottom: 24px;
+}
+
+.content p{
+  line-height: 26px;
+  color: #444343;
+  margin-bottom:32px ;
+  padding: 0 0 0 10px;
+}
+
+.content button{
+  padding:21px 26px ;
+  background-color: #F15B22;
+  color:#FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+
+
